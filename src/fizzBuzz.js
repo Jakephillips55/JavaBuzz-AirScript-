@@ -10,11 +10,11 @@ FizzBuzz.prototype.play = function (number) {
     return 'Fizz';
   } else {
     return number;
-  }
-}
+  };
+};
 FizzBuzz.prototype._isDivisibleBy = function(divisor, number) {
   return number % divisor === 0;
-}
+};
 
 // var fizzBuzz = new fizzBuzz();
 //
