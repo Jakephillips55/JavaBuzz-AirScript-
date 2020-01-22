@@ -9,7 +9,7 @@ class Plane {
   takeoff() {
     this._location.clearForTakeOff();
   }
-}
+};
 // refactored the below into the above
 // Plane.prototype.land = function(airport){
 //   airport.clearForLanding(this);

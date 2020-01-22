@@ -1,4 +1,3 @@
-'use strict';
 'use strict'; 
 
 class Airport {
@@ -25,12 +24,12 @@ class Airport {
     return false;
   }
 }
-  Airport.prototype.clearForTakeOff = function(plane) {
-    if(this.isStorm()) {
-      throw new Error('Storm on no flying!');
-    };
-    this._hangar = [];
-  };
+  // Airport.prototype.clearForTakeOff = function(plane) {
+  //   if(this.isStorm()) {
+  //     throw new Error('Storm on no flying!');
+  //   };
+  //   this._hangar = [];
+  // };
   
   // _method means it is a private method 
 
